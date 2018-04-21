@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+    font-family: "Lato", sans-serif;
+	background-color: #85C1E9;
+}
+
+.sidenav {
+    display: none;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Toshiba.html">The Future of Biodomes</a>
+  <a href="PastPresent.html">Past & Present Technology</a>
+  <a href="DesignProcess.html">Design Process & Our Solution</a>
+  <a href="Breakthrough.html">Breakthrough</a>
+  <a href="consequences.html">Consequences</a>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.display = "block";
+	 document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.display = "none";
+	document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<div align="left" id="main">
+<h1>Breakthrough</h1>
+<p style="text-align:left;">
+<span style="float:right;"><img src="Capture38.png" style="width:304px;height:228px;"> </span>
+Bismuth Borate glass has been tested for radiation protection and strength. Increasing the ratio of bismuth gives it more radiation protection while increasing the ratio of borate makes it stronger. The R value is the ratio of bismuth to borate. As you can see as the R value increases so does the density (good for radiation protection) and the molar volume (good for rigidity) mostly following a logarithmic curve.
+</p>
+<p style="text-align:left;">
+<span style="float:right;"><img src="Capture39.png" style="width:304px;height:228px;"> </span>
+In addition, when the HVL value (the minimum width of a material to reduce a gamma or x-ray’s strength to half) of an object decreases, the object has a greater efficiency in blocking radiation. According to the graph, the HVL value was the least in the material that had the highest tested R value (GS8 on the graph to the right). Thus, this shows that having a high ratio of bismuth to borate will result in the best radiation protection.
+</p>
+<p style="text-align:left;">
+<span style="float:right;"><img src="Capture40.png" style="width:304px;height:228px;"> </span>
+Finally, in space, there is a myriad of electromagnetic waves, specifically gamma and x-ray waves. This is a type of Electromagnetic radiation. Electromagnetic radiation at high frequencies can cause ionizing radiation that rips electrons off of atoms. The effect of this can be measured using effective atomic number. The effective atomic number is a number that represents the total number of electrons in the orbital rings of an element or compound. Thus, the higher the effective atomic number the less of an effect the radiation had on the material since there are less electrons that are ripped off the atoms. As you can see to the right, GS8 the material with the highest r-value has the highest effective atomic number meaning that it was least affected by the radiation.
+</p>
+<p>From what we understand, the energy values, in the following graphs, show the strength of gamma radiation that the material is encountering, and the effective atomic number corresponds to the material’s effectiveness to shield the material from gamma radiation. Thus, both these graphs show that as the ratio of bismuth and borate increases, the effectiveness of shielding gamma radiation also increases</p>
+</p>
+<p>Thus, in order for our solution to become reality, a scientific breakthrough must occur, in the future, that will determine the optimal ratio between borate and bismuth in silicate glass. In order to do this, we must account for the cost of each material as well. In addition to that, we must find the perfect balance between density and molar value when we determine the optimal ratio. Finally, we must make sure that the ratio that we determine also has a low HVL value as well as a high effective atomic number so that the radiation shielding principles increases. However, we must also make sure that the ratio doesn’t decrease the strength of the material, and it will still be strong enough to hold up the entire biodome.</p>
+</div>  
+</body>
+</html> 
